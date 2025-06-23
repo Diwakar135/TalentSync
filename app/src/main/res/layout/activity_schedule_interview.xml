@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".activities.ScheduleInterviewActivity">
+
+    <EditText
+        android:id="@+id/edit_interview_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/interview_title"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/text_selected_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_date_time_selected"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/button_pick_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_date_and_time"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/button_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule_interview" />
+
+</LinearLayout>

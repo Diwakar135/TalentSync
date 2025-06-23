@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".activities.RecruiterDashboardActivity">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_id"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_create_job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_job_"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_view_candidates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_candidates"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_profile" />
+    <Button
+        android:id="@+id/button_view_scheduled_interviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_scheduled_interviews"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

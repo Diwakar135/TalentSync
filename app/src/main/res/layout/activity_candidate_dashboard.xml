@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".activities.CandidateListActivity">
+
+    <TextView
+        android:id="@+id/text_resume_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_file_selected_"
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_select_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_resume_"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/text_aqi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_aqi"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_welcome"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_emails"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/button_upload_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_resumes" />
+</LinearLayout>
